@@ -13,6 +13,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    transform: scale(1.10);
+    transition: .2s ease-in-out;
+}
+
 :root {
     --cor-texto-principal: #ffffff;
     --fonte-textos: 'Open Sans', sans-serif;
@@ -62,6 +67,12 @@ main {
     vertical-align: middle;
 }
 
+.menu-lateral__link:hover  {
+    color: var(--azul-neon);
+    transform: scale(1.00);
+    transition: ease-in-out;
+}
+
 .menu-lateral__link {
     font-family: var(--fonte-textos);
     font-weight: 600;
@@ -104,6 +115,11 @@ main {
 .cartao { 
     background: var(--cinza);
     border-radius: .5rem;
+}
+
+.cartao:hover { 
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
 }
 
 .cartao__titulo {
